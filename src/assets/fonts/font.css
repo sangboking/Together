@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SCoreDream";
+  font-display: swap;
+  font-weight: 400;
+
+  src: url("./AnyConv.com__SCDream4.eot?iefix")format("embedded-opentype"),
+  url("./AnyConv.com__SCDream4.ttf")format("truetype"),
+  url("./AnyConv.com__SCDream4.woff")format("woff")
+}
+
+@font-face {
+  font-family: "SCoreDream";
+  font-display: swap;
+  font-weight: 500;
+
+  src: url("./AnyConv.com__SCDream5.eot?iefix")format("embedded-opentype"),
+  url("./AnyConv.com__SCDream5.ttf")format("truetype"),
+  url("./AnyConv.com__SCDream5.woff")format("woff")
+}
+
+@font-face {
+  font-family: "SCoreDream";
+  font-display: swap;
+  font-weight: 600;
+
+  src: url("./AnyConv.com__SCDream6.eot?iefix")format("embedded-opentype"),
+  url("./AnyConv.com__SCDream6.ttf")format("truetype"),
+  url("./AnyConv.com__SCDream6.woff")format("woff")
+}
+
