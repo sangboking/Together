@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 import Header from "@/components/layout/Header";
-import { MainSection } from "@/pages/MainPage/components/MainSection";
+import MainSection from "@/pages/MainPage/components/MainSection";
+import CenterSection from "@/pages/MainPage/components/CenterSection";
+import FinalSection from "@/pages/MainPage/components/FinalSection";
 
 const MainPage = () => {
   return (
@@ -9,8 +11,8 @@ const MainPage = () => {
       <Header />
 
       <MainSection />
-      <Box style={{ backgroundColor: "blue" }} />
-      <Box style={{ backgroundColor: "pink" }} />
+      <CenterSection />
+      <FinalSection />
     </Wrapper>
   );
 };
@@ -27,9 +29,4 @@ const Wrapper = styled.div`
     width: 0;
     background: transparent;
   }
-`;
-
-const Box = styled.div`
-  height: 100vh;
-  scroll-snap-align: start;
 `;

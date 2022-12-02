@@ -15,7 +15,7 @@ export default Header;
 const Head = styled.header`
   width: 100%;
   height: 5rem;
-  background-color: pink;
+  background-color: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
